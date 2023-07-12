@@ -40,14 +40,14 @@ Solved ✅
 
 ---
 
-> warning Pattern ["@react-aria/i18n@^3.8.0"] is trying to unpack in the same destination "C:\\Users\\erica\\AppData\\Local\\Yarn\\Cache\\v6\\npm-@react-aria-i18n-3.8.0-fe0c6b9ad9fe1e8a139c4d514d4240164c699bf8-integrity\\node_modules\\@react-aria\\i18n" as pattern ["@react-aria/i18n@^3.3.6","@react-aria/i18n@^3.3.6","@react-aria/i18n@^3.8.0","@react-aria/i18n@^3.8.0","@react-aria/i18n@^3.8.0"]. This could result in non-deterministic behavior, skipping.
-> warning " > @react-aria/button@3.4.1" has incorrect peer dependency "react@^16.8.0 || ^17.0.0-rc.1".
-> warning " > @react-aria/focus@3.5.2" has incorrect peer dependency "react@^16.8.0 || ^17.0.0-rc.1".
-> warning " > @react-aria/overlays@3.7.5" has incorrect peer dependency "react@^16.8.0 || ^17.0.0-rc.1".
-> warning " > @react-aria/overlays@3.7.5" has incorrect peer dependency "react-dom@^16.8.0 || ^17.0.0-rc.1".
-> warning " > @react-aria/select@3.6.2" has incorrect peer dependency "react@^16.8.0 || ^17.0.0-rc.1".
-> warning " > @react-aria/select@3.6.2" has incorrect peer dependency "react-dom@^16.8.0 || ^17.0.0-rc.1".
-> warning " > @react-stately/collections@3.3.6" has incorrect peer dependency "react@^16.8.0 || ^17.0.0-rc.1".
-> warning " > @react-stately/select@3.1.5" has incorrect peer dependency "react@^16.8.0 || ^17.0.0-rc.1".
+> warning: Pattern ["@react-aria/i18n@^3.8.0"] is trying to unpack in the same destination "C:\\Users\\erica\\AppData\\Local\\Yarn\\Cache\\v6\\npm-@react-aria-i18n-3.8.0-fe0c6b9ad9fe1e8a139c4d514d4240164c699bf8-integrity\\node_modules\\@react-aria\\i18n" as pattern ["@react-aria/i18n@^3.3.6","@react-aria/i18n@^3.3.6","@react-aria/i18n@^3.8.0","@react-aria/i18n@^3.8.0","@react-aria/i18n@^3.8.0"]. This could result in non-deterministic behavior, skipping.
+> warning: @react-aria/button@3.4.1" has incorrect peer dependency "react@^16.8.0 || ^17.0.0-rc.1".
+> warning: @react-aria/focus@3.5.2" has incorrect peer dependency "react@^16.8.0 || ^17.0.0-rc.1".
+> warning: @react-aria/overlays@3.7.5" has incorrect peer dependency "react@^16.8.0 || ^17.0.0-rc.1".
+> warning: @react-aria/overlays@3.7.5" has incorrect peer dependency "react-dom@^16.8.0 || ^17.0.0-rc.1".
+> warning: @react-aria/select@3.6.2" has incorrect peer dependency "react@^16.8.0 || ^17.0.0-rc.1".
+> warning: @react-aria/select@3.6.2" has incorrect peer dependency "react-dom@^16.8.0 || ^17.0.0-rc.1".
+> warning: @react-stately/collections@3.3.6" has incorrect peer dependency "react@^16.8.0 || ^17.0.0-rc.1".
+> warning: @react-stately/select@3.1.5" has incorrect peer dependency "react@^16.8.0 || ^17.0.0-rc.1".
 
 Still lurking how to solve those above 🚧
