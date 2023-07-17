@@ -34,7 +34,7 @@ Solved ✅
 > ./pages/index.tsx
 > https://nextjs.org/docs/messages/module-not-found
 
-(Found that issue related)[https://github.com/vercel/next.js/issues/48593]
+[Found that issue related](https://github.com/vercel/next.js/issues/48593)
 
 ---
 
