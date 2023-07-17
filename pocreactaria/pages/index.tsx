@@ -1,15 +1,14 @@
+//@ts-ignore
 import Head from 'next/head';
 import React from 'react';
-
-type Props = {
-  title: string;
-};
+import { ReactAriaSelect } from '../components/select/ReactAriaSelect';
+import { Item } from '@react-stately/collections';
 
 export default function Home() {
   const poc = 'PoC Next App React-Aria';
   return (
     <div className={'container'}>
-      <Head children={undefined}>
+      <Head>
         <title>{poc}</title>
         <meta name="description" content={poc} />
         <link rel="icon" href="/favicon.ico" />
@@ -18,10 +17,20 @@ export default function Home() {
       <main className={'main'}>
         <h1 className={'title'}>{poc}</h1>
 
-        <p className={'description'}>
-          Configurando projeto
-          {/* <code className={code}>pages/index.js</code> */}
-        </p>
+        <p className={'description'}>Configurando projeto</p>
+
+        <div className={'grid'}>
+          <div className={'card'}>
+            {/* comentado para poder executar build 
+            <ReactAriaSelect label="React Aria Select" name="react-aria-select">
+              <Item>Option 1</Item>
+              <Item>Option 2</Item>
+              <Item>Option 3</Item>
+              <Item>Option 4</Item>
+              <Item>Option 5</Item>
+            </ReactAriaSelect> */}
+          </div>
+        </div>
 
         <div className={'grid'}>
           <div className={'card'}>
@@ -32,16 +41,14 @@ export default function Home() {
             <h2>React</h2>
             <p>v18.2.0</p>
           </div>
-
           <div className={'card'}>
             <h2>Typescript</h2>
             <p>v4.7.4</p>
           </div>
-
-          {/* <div className={'card'}>
+          <div className={'card'}>
             <h2>React-Aria</h2>
-            <p>v3.23.1</p>
-          </div> */}
+            <p>v3.26.0</p>
+          </div>
         </div>
       </main>
 
@@ -54,7 +61,7 @@ export default function Home() {
           Erica Noronha ✌️
         </a>
       </footer>
-      <style jsx>{`
+      <style>{`
         .container {
           padding: 0 2rem;
         }
@@ -189,7 +196,7 @@ export default function Home() {
         }
       `}</style>
 
-      <style jsx global>{`
+      <style>{`
         html,
         body {
           padding: 0;
