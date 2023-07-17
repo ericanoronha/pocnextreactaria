@@ -17,8 +17,6 @@ export default function Home() {
       <main className={'main'}>
         <h1 className={'title'}>{poc}</h1>
 
-        <p className={'description'}>Configurando projeto</p>
-
         <div className={'grid'}>
           <div className={'card'}>
             {/* comentado para poder executar build 
